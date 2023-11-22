@@ -1,0 +1,42 @@
+
+a:link {
+    color: lawngreen;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: #091a9c;
+}
+
+a:active {
+    color: chocolate;
+}
+
+button:hover {
+
+    background-color: blueviolet;
+}
+
+button:active {
+    background-color: yellow;
+}
+
+li::first-letter {
+    color: aquamarine;
+}
+
+
+/* li:nth-child(odd) {
+    background-color: brown;
+} */
+
+/* li:nth-child(4) {
+    background-color: brown;
+} */
+
+li:nth-child(3n) {
+    background-color: brown;
+}
