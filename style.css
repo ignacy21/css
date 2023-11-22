@@ -1,0 +1,33 @@
+body {
+    background-color:black;
+}
+h1 {
+    background-color: #f76f3e;
+    color: red;
+}
+h2 {
+    background-color: #61cf6c;
+    color: #05f01c;
+}
+p {
+    background-color: #f7eb3e; 
+    color: #5af73e;
+}
+
+#kupa {
+    background-color: #a37546;
+    color: #613f1e;
+}
+
+/* class */
+.red {
+    background-color: #f76f3e;
+    color: red;
+}
+
+.blue {
+    background-color: #59d7eb;
+    color: #1e6061;
+}
+
+
