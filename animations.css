@@ -86,3 +86,16 @@
     position: absolute;
     animation: bounceAnimation2 4s linear infinite;
   }
+
+@keyframes myOpacity {
+  50% {opacity: 0;}
+}
+
+@keyframes myScale {
+  50% {transform: scale(0.5, 0.5);}
+}
+
+@keyframes rotation {
+  100% {transform: rotateY(360ang);}
+}
+
