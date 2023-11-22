@@ -11,6 +11,7 @@ h1 {
     background: linear-gradient(to right, black, rgba(0, 0, 255, 0));
     font-family: Kdam Thmor Pro;
     font-weight: bold;
+    width: 60%;
     /* font-family: anton; */
 }
 
@@ -91,12 +92,24 @@ img {
 
 #box5 {
     border: 3px solid;
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     background-color: gold;
 
     position: fixed;
     bottom: 0px;
     right: 0px;
+}
+
+#textShadow {
+    color: #0b187a;
+    font-size: 40px;
+    /* x, y, z -- (axis) */
+    text-shadow: 5px 5px 3px red, -5px -5px 3px rgb(153, 255, 0);
+}
+
+h3:hover {
+    width: 30%;
+    box-shadow: 5px 5px 0px #6f7de3;
 }
 
