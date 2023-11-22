@@ -1,0 +1,27 @@
+body {
+    color: blueviolet;
+    background: linear-gradient(black, blue);
+    /* background: linear-gradient(to top, black, blue); */
+    /* background: linear-gradient(to left, black, blue); */
+    /* background: linear-gradient(to right, black, blue); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 20px;
+}
+#p {
+    border-style: solid;
+    border-top-width: 10px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.slim {
+    border-style: solid;
+    border-radius: 300px;
+}
